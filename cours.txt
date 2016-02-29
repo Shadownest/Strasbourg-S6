@@ -41,3 +41,7 @@ Créer le fichier
 git add LE_NOM_DU_FICHIER
 git commit LE_NOM_DU_FICHIER -m "UN_COMMENTAIRE"
 git push
+
+git branch
+
+git checkout NOM_BRANCH
