@@ -1,0 +1,17 @@
+Tutos : 
+https://try.github.io/levels/1/challenges/1#
+http://rogerdudler.github.io/git-guide/index.fr.html
+http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/
+http://christopheducamp.com/2013/12/16/gitHub-pour-nuls-partie-2/
+
+
+Configuration:
+git config --global color.diff auto
+git config --global color.status auto
+git config --global push.default current
+git config --global pull.default current
+git config --global color.branch auto
+git config --global user.email "YOUREMAIL"
+git config --global user.name "YOURLOGIN"
+
+Créez un répertoire dans sites pour le projet git
