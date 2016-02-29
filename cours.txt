@@ -15,3 +15,29 @@ git config --global user.email "YOUREMAIL"
 git config --global user.name "YOURLOGIN"
 
 Créez un répertoire dans sites pour le projet git
+
+https://github.com/Shadownest/Strasbourg-S6
+
+cd sites/dev/projetgit
+
+git init
+git remote add origin URLDUPROJET
+git remote -v
+# origin	https://github.com/Shadownest/Strasbourg-S6.git (fetch)
+# origin	https://github.com/Shadownest/Strasbourg-S6.git (push)
+
+git fetch
+# remote: Counting objects: 3, done.
+# remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+# Unpacking objects: 100% (3/3), done.
+# Depuis https://github.com/Shadownest/Strasbourg-S6
+#  * [nouvelle branche] master     -> origin/master
+
+git checkout master
+
+git pull
+
+Créer le fichier
+git add LE_NOM_DU_FICHIER
+git commit LE_NOM_DU_FICHIER -m "UN_COMMENTAIRE"
+git push
